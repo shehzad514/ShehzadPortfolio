@@ -1,0 +1,217 @@
+.project_sec {
+  margin-top: 50px;
+}
+.project_cont {
+  padding: 5px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.project_heading h2{
+  font-size: 23px;
+  color: white;
+  font-family: "Arima", system-ui;
+}
+.project_details {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 10px;
+  flex-direction: column;
+}
+.online_banking,
+.tourism {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.online_banking_pic,
+.tourism_pic,
+.travel_pic {
+  width: 40%;
+}
+
+.online_banking_pic img {
+  width: 100%;
+  border-radius: 10px;
+}
+.tourism_pic img {
+  width: 100%;
+  border-radius: 10px;
+}
+.travel_pic img {
+  width: 100%;
+  border-radius: 10px;
+}
+.shopping_center_pic {
+  width: 40%;
+}
+
+.shopping_center_pic img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.online_banking_details {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: white;
+  font-family: "Arima", system-ui;
+  padding: 5px 10px;
+}
+
+.online_banking_details h3 {
+  font-size: 25px;
+  letter-spacing: 3px;
+}
+.online_banking_details p {
+  font-size: 15px;
+}
+.online_banking_details ul li {
+  font-size: 15px;
+  margin-left: 30px;
+  padding-top: 5px;
+  word-spacing: 3px;
+}
+.btn {
+  margin-top: 10px;
+  width: 40%;
+  border: 1px solid white;
+  background-color: transparent;
+  padding: 10px 10px;
+  border-radius: 20px;
+  color: white;
+  font-family: "Arima", system-ui;
+  cursor: pointer;
+  transition: ease-in-out 0.5s;
+}
+.btn:hover {
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+}
+
+.shopping_center,
+.travelling {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-direction: row-reverse;
+
+}
+
+@media (max-width: 1100px) {
+  .project_heading h2 {
+    font-size: 23px;
+  }
+  .online_banking_details h3 {
+    font-size: 20px;
+  }
+  .online_banking_details p {
+    font-size: 13px;
+  }
+  .online_banking_details ul li {
+    font-size: 13px;
+  }
+  .btn {
+    padding: 5px 5px;
+    border-radius: 20px;
+    font-size: 13px;
+  }
+}
+@media (max-width: 930px) {
+  
+  .online_banking_details h3 {
+    font-size: 15px;
+  }
+  .online_banking_details p {
+    font-size: 10px;
+  }
+  .online_banking_details ul li {
+    font-size: 10px;
+  }
+  .btn {
+    font-size: 10px;
+  }
+}
+@media (max-width: 770px) {
+  .online_banking_details h3 {
+    font-size: 12px;
+  }
+  .online_banking_details p {
+    font-size: 8px;
+  }
+  .online_banking_details ul li {
+    font-size: 8px;
+  }
+  .btn {
+    font-size: 8px;
+  }
+}
+@media (max-width: 690px) {
+  .btn {
+    margin-top: 4px;
+  }
+}
+@media (max-width: 630px) {
+  .online_banking_details h3 {
+    font-size: 10px;
+  }
+  .online_banking_details p {
+    font-size: 6px;
+  }
+  .online_banking_details ul li {
+    font-size: 6px;
+  }
+  .btn {
+    font-size: 6px;
+  }
+}
+@media (max-width: 510px) {
+  
+  .online_banking,
+  .tourism, .shopping_center, .travelling {
+    width: 80%;
+    align-items: start;
+    gap: 10px;
+    flex-direction: column;
+  }
+  .online_banking_pic,
+  .tourism_pic,
+  .travel_pic, .shopping_center_pic {
+    width: 100%;
+  }
+  .online_banking_details {
+    width: 100%;
+  }
+  .online_banking_details h3 {
+    font-size: 22px;
+  }
+  .online_banking_details p {
+    font-size: 10px;
+  }
+  .online_banking_details ul li {
+    font-size: 10px;
+  }
+  .btn {
+    font-size: 10px;
+    padding: 5px 10px;
+  }
+}
+@media (max-width: 450px)
+{
+    .online_banking,
+    .tourism, .shopping_center, .travelling {
+      width: 100%;
+      align-items: start;
+      gap: 10px;
+      flex-direction: column;
+    }
+}

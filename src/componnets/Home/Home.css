@@ -1,0 +1,300 @@
+.home_sec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 50px;
+  font-family: "Arima", system-ui;
+  padding-bottom: 100px;
+  padding-top: 50px;
+  height: 80vh;
+}
+.home_left {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: white;
+}
+.home_left h3 {
+  font-family: "Arima", system-ui;
+  letter-spacing: 4px;
+  font-size: 30px;
+}
+#head {
+  width: 170px;
+  padding: 2px 4px;
+  border-radius: 5px;
+  background-color: orangered;
+}
+.typewriter {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.icon {
+  font-size: 35px;
+  color: orangered;
+}
+.typewriterP {
+  padding: 5px 10px;
+  color: white;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+}
+.whatsap_link
+{
+  margin-top: 50px;
+}
+.email
+{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.email a 
+{
+  color: white;
+  text-decoration: none;
+}
+.whatsapp
+{
+  color: white;
+}
+.whatsapp 
+{
+
+    font-size: 25px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.whatsapp:hover 
+{
+    transform: scale(1.1);
+    
+}
+.home_right {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 20px;
+}
+.home_right .picture {
+  border: 2px solid black;
+  width: 300px;
+  border-radius: 50%;
+  border: 2px solid white;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+}
+.home_right_details img {
+  width: 250px;
+}
+
+@media (max-width: 900px) {
+  .home_left {
+    width: 30%;
+  }
+  .home_left h3 {
+    font-size: 20px;
+  }
+  .whatsap_link p 
+  {
+    font-size: 15px;
+  }
+  .email a 
+  {
+    font-size: 15px;
+  }
+  #head {
+    font-size: 15px;
+    width: 150px;
+  }
+  .home_right {
+    width: 40%;
+    gap: 10px;
+  }
+  .home_right .picture {
+    width: 200px;
+  }
+
+  .home_right_details img {
+    width: 200px;
+  }
+}
+
+@media (max-width: 770px) {
+  .home_left h3 {
+    font-size: 15px;
+  }
+  #head {
+    font-size: 10px;
+    width: 110px;
+  }
+  .typewriterP {
+    font-size: 10px;
+    padding: 2px 5px;
+    border-radius: 5px;
+  }
+  .whatsap_link p 
+  {
+    font-size: 10px;
+  }
+  .email a 
+  {
+    font-size: 10px;
+  }
+  .whatsapp
+  {
+    font-size: 15px;
+  }
+  .icon {
+    font-size: 25px;
+  }
+  .home_right .picture {
+    width: 150px;
+  }
+
+  .home_right_details img {
+    width: 150px;
+  }
+}
+@media (max-width: 640px)
+{
+  .home_sec
+  {
+    height: 60vh;
+  }
+  .home_left h3 {
+    font-size: 12px;
+  }
+  #head {
+    font-size: 8px;
+    width: 90px;
+  }
+  .typewriterP {
+    font-size: 8px;
+    padding: 2px 5px;
+    border-radius: 5px;
+  }
+  .whatsap_link
+  {
+    margin-top: 3px;
+  }
+  .whatsap_link p 
+  {
+    font-size: 8px;
+  }
+  .email a 
+  {
+    font-size: 8px;
+  }
+  .whatsapp
+  {
+    font-size: 12px;
+  }
+  .icon {
+    font-size: 18px;
+  }
+  .home_right .picture {
+    width: 100px;
+  }
+
+  .home_right_details img {
+    width: 100px;
+  }
+}
+
+@media (max-width: 560px)
+{
+  .home_sec
+  {
+    height: auto;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .home_left 
+  {
+    width: 70%;
+    justify-content: start;
+  }
+  .home_right
+  {
+    width: 70%;
+    justify-content: start;
+    margin: 0;
+    align-items: center;
+  }
+  .home_left h3 {
+    font-size: 20px;
+  }
+  #head {
+    font-size: 15px;
+    width: 160px;
+  }
+  .typewriterP {
+    font-size: 15px;
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
+  .whatsap_link p 
+  {
+    font-size: 15px;
+  }
+  .email a 
+  {
+    font-size: 15px;
+  }
+  .whatsapp
+  {
+    font-size: 18px;
+  }
+  .icon {
+    font-size: 25px;
+  }
+  .home_right .picture {
+    width: 200px;
+  }
+
+  .home_right_details img {
+    width: 200px;
+  }
+}
+@media (max-width: 370px)
+{
+  .home_left h3 {
+    font-size: 15px;
+  }
+  #head {
+    font-size: 10px;
+    width: 120px;
+  }
+  .typewriterP {
+    font-size: 10px;
+    padding: 3px 5px;
+    border-radius: 5px;
+  }
+  .whatsap_link p 
+  {
+    font-size: 10px;
+  }
+  .email a 
+  {
+    font-size: 10px;
+  }
+  .whatsapp
+  {
+    font-size: 15px;
+  }
+  .icon {
+    font-size: 20px;
+  }
+  .home_right .picture {
+    width: 150px;
+  }
+
+  .home_right_details img {
+    width: 150px;
+  }
+}

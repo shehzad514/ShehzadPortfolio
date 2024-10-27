@@ -1,0 +1,140 @@
+.exp_sec
+{
+    margin-top: 50px;
+}
+.exp_cont
+{
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.exp_heading h2
+{
+    font-size: 23px;
+    color: white;
+    font-family: "Arima", system-ui;
+}
+.exp_details
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 10px;
+}
+.exp_left
+{
+    padding: 15px;
+    color: white;
+    font-family: "Arima", system-ui;
+    width: 40%;
+}
+.exp_left ul li , .exp_right ul li
+{
+    margin-left: 30px;
+}
+.exp_middle
+{
+    border-radius: 5px;
+    width: 8px;
+    background-color: rgba(255, 255, 255, 0.61);
+    height: 100%;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.dots
+{
+    color: rgba(255, 255, 255, 0.61);
+}
+
+.dotb 
+{
+    margin-top: 15vh;
+}
+.dotc
+{
+    margin-top: 14vh;
+}
+.exp_right
+
+{  
+     padding: 15px;
+    color: white;
+    font-family: "Arima", system-ui;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 40%;
+    padding-left: 20px;
+}
+
+@media (max-width:1060px)
+{
+    .exp_left h2, .exp_right h2
+    {
+        font-size: 20px;
+    }
+    .exp_left p , .exp_right p
+    {
+        font-size: 12px;
+    }
+    .exp_left ul li, .exp_right ul li
+    {
+        font-size: 12px;
+    }
+
+}
+@media (max-width:760px)
+{
+    .exp_left h2, .exp_right h2
+    {
+        font-size: 17px;
+    }
+    .exp_left p , .exp_right p
+    {
+        font-size: 10px;
+    }
+    .exp_left ul li, .exp_right ul li
+    {
+        font-size: 10px;
+    }
+
+}
+@media (max-width: 510px)
+{
+    .exp_middle
+    {
+        display: none;
+    }
+    .exp_details
+{
+    flex-direction: column;
+    align-items: start;
+    padding-left: 40px;
+    gap: 0;
+}
+.exp_left
+{
+    width: 100%;
+    padding-left: 10px;
+}
+.exp_right
+{
+    flex-direction: column;
+    width: 100%;
+    padding-left: 10px;
+}
+}
+@media (max-width: 450px)
+{
+    .exp_details
+    {
+        padding-left: 10px;
+    }
+}
