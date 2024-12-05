@@ -23,7 +23,7 @@
   font-size: 30px;
 }
 #head {
-  width: 170px;
+  width: 280px;
   padding: 2px 4px;
   border-radius: 5px;
   background-color: orangered;
@@ -108,8 +108,8 @@
     font-size: 15px;
   }
   #head {
-    font-size: 15px;
-    width: 150px;
+    font-size: 12px;
+    width: 220px;
   }
   .home_right {
     width: 40%;
@@ -127,10 +127,6 @@
 @media (max-width: 770px) {
   .home_left h3 {
     font-size: 15px;
-  }
-  #head {
-    font-size: 10px;
-    width: 110px;
   }
   .typewriterP {
     font-size: 10px;
@@ -155,6 +151,10 @@
   .home_right .picture {
     width: 150px;
   }
+  #head {
+    font-size: 10px;
+    width: 190px;
+  }
 
   .home_right_details img {
     width: 150px;
@@ -170,8 +170,8 @@
     font-size: 12px;
   }
   #head {
-    font-size: 8px;
-    width: 90px;
+    font-size: 7px;
+    width: 140px;
   }
   .typewriterP {
     font-size: 8px;
@@ -230,8 +230,8 @@
     font-size: 20px;
   }
   #head {
-    font-size: 15px;
-    width: 160px;
+    font-size: 14px;
+    width: 260px;
   }
   .typewriterP {
     font-size: 15px;
@@ -268,7 +268,7 @@
   }
   #head {
     font-size: 10px;
-    width: 120px;
+    width: 190px;
   }
   .typewriterP {
     font-size: 10px;

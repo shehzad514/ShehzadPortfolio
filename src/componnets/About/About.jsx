@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import '../About/About.css'
-import cv from '../Assests/cv.png'
+import cv from '../Assests/sheh cv.png'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 function About() {
@@ -38,7 +38,7 @@ function About() {
 
                 <div className='about_right' data-aos='flip-right'>
                     <h3>I am Shehzad Hussain</h3>
-                    <p>A frontend web and UI developer with expertise in HTML, CSS, JavaScript, React.js, Bootstrap, UI, API integration, meterial UI and SQL. I have successfully built and maintained responsive and user-friendly web applications that meet clients' needs.</p>
+                    <p>A frontend React js developer and UI/UX Designer with expertise in HTML5, CSS3, JavaScript, React.js, Bootstrap, Tailwind CSS, REST API, API integration, meterial UI, Figma, Canva, Adobe Xd snd Adobe Photoshop. I have successfully built, Design and maintained responsive and user-friendly web applications that meet clients' needs.</p>
                 </div>
             </div>
         </div>

@@ -34,7 +34,7 @@ function Home() {
     <div className="container">
       <div className="home_sec" ref={homeRef} id="home">
         <div className="home_left " data-aos='fade-right'>
-          <p id="head">Frontend Web Expert</p>
+          <p id="head">Frontend Developer and UI/UX Expert</p>
           <h3>Shehzad Hussain</h3>
           <div className="typewriter">
             <TbArrowBadgeRightFilled className="icon" />
@@ -46,6 +46,9 @@ function Home() {
                     "React.js Expert",
                     "Frontend Developer",
                     "UI Developer",
+                    "UI/UX Designer",
+                    "Web Designer",
+                    "Graphic Designer"
                   ],
                   autoStart: true,
                   loop: true,

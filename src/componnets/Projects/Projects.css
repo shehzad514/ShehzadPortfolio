@@ -1,5 +1,8 @@
 .project_sec {
   margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
 }
 .project_cont {
   padding: 5px 10px;
@@ -107,6 +110,58 @@
 
 }
 
+.sliders
+{
+  display: flex;
+  width: 1000px;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  font-family: "Arima", system-ui;
+}
+.projects
+{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  text-align: center;
+}
+.proj_sub
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px 20px;
+  text-align: left;
+  gap: 10px;
+  height: 330px;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.proj_sub:hover 
+{
+  transform: scale(1.02);
+}
+.proj_sub p 
+{
+  font-size: 15px;
+}
+.proj_sub button
+{
+  padding: 10px;
+  border-radius: 40px;
+  border: 2px solid  #081b29;
+  background-color: transparent;
+  font-family: "Arima", system-ui;
+  cursor: pointer;
+  font-size: 15px;
+}
 @media (max-width: 1100px) {
   .project_heading h2 {
     font-size: 23px;
@@ -125,6 +180,26 @@
     border-radius: 20px;
     font-size: 13px;
   }
+  .sliders
+  {
+    width: 800px;
+  }
+  .projects
+  {
+    padding: 8px 15px;
+  }
+  .proj_sub
+  {
+    height: 260px;
+  }
+  .proj_sub p 
+  {
+    font-size: 12px;
+  }
+  .proj_sub button
+  {
+    font-size: 12px;
+  }
 }
 @media (max-width: 930px) {
   
@@ -140,6 +215,32 @@
   .btn {
     font-size: 10px;
   }
+  .sliders
+  {
+    width: 650px;
+  }
+  .projects
+  {
+    padding: 8px 10px;
+  }
+  .proj_sub h3 
+  {
+    font-size: 9px;
+  }
+  .proj_sub p 
+  {
+    font-size: 9px;
+  }
+  .proj_sub button
+  {
+    font-size: 9px;
+    padding: 5px;
+  }
+  .proj_sub
+  {
+    height: 200px;
+    width: 100%;
+  }
 }
 @media (max-width: 770px) {
   .online_banking_details h3 {
@@ -154,10 +255,54 @@
   .btn {
     font-size: 8px;
   }
+  .proj_sub h3 
+  {
+    font-size: 8px;
+  }
+  .proj_sub p 
+  {
+    font-size: 8px;
+  }
+  .proj_sub button
+  {
+    font-size: 8px;
+    padding: 4px;
+  }
+  .proj_sub
+  {
+    height: 180px;
+    width: 100%;
+  }
+  .sliders
+  {
+    width: 580px;
+  }
 }
 @media (max-width: 690px) {
   .btn {
     margin-top: 4px;
+  }
+  .proj_sub h3 
+  {
+    font-size: 6px;
+  }
+  .proj_sub p 
+  {
+    font-size: 6px;
+  }
+  .proj_sub button
+  {
+    font-size: 6px;
+    padding: 3px;
+  }
+  .proj_sub
+  {
+    height: 120px;
+    width: 100%;
+  }
+  .sliders
+  {
+    width: 480px;
   }
 }
 @media (max-width: 630px) {
@@ -172,6 +317,23 @@
   }
   .btn {
     font-size: 6px;
+  }
+}
+@media (max-width:550px)
+{
+  .sliders
+  {
+    width: 380px;
+  }
+  .proj_sub p 
+  {
+    font-size: 5px;
+  }
+  .proj_sub button
+  {
+    font-size: 5px;
+    padding: 2px;
+    border: 1px solid #081b29;
   }
 }
 @media (max-width: 510px) {
@@ -203,6 +365,27 @@
   .btn {
     font-size: 10px;
     padding: 5px 10px;
+  }
+  .projects_mobile
+  {
+    font-family: "Arima", system-ui;
+  }
+  .proj_sub
+  {
+    height: auto;
+  }
+  .proj_sub h3
+  {
+    font-size: 22px;
+  }
+  .proj_sub p 
+  {
+    font-size: 10px;
+  }
+  .proj_sub button 
+  {
+    font-size: 10px;
+    padding: 5px;
   }
 }
 @media (max-width: 450px)

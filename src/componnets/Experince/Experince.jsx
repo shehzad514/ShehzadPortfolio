@@ -36,7 +36,7 @@ function Experince() {
           <div className="exp_details">
             <div className="exp_left" data-aos='zoom-in-right'>
               <h2>Web Developer Intern</h2>
-              <p>CodeSoft</p>
+              <p>NAXAPE</p>
               <ul>
                 <li>Improve web development skills, especially in React JS</li>
                 <li>
@@ -48,6 +48,7 @@ function Experince() {
                 <li>Develop project Online Banking Sysytem in react js</li>
               </ul>
             </div>
+            
             <div className="exp_middle">
             <FaArrowAltCircleRight className="dots dota"/>
                 <FaArrowAltCircleLeft className="dots dotb"/>
@@ -68,6 +69,7 @@ function Experince() {
                 <li>Handling Contracts</li>
               </ul>
               </div>
+              
 
               <div className="cert_below" data-aos='zoom-in-left'>
               <h2>Graphic Design</h2>
@@ -76,11 +78,13 @@ function Experince() {
                 program Batch-09 Feb 2021-May 2021
               </p>
               <ul>
+                <li>UI/UX Design</li>
+                <li>Figma</li>
+                <li>Adobe xd</li>
+                <li>canva</li>
                 <li>Adobe Photoshop</li>
-                <li>Illastrator</li>
-                <li>Typographyt</li>
-                <li>Logo Design</li>
-                <li>UI Design</li>
+                <li>Typography</li>
+                <li>Design Principals</li>
               </ul>
               </div>
             </div>

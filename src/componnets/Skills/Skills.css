@@ -28,8 +28,7 @@
 }
 .techinical_skills
 {
-
-    width: 50%;
+    width: 60%;
     padding: 10px 15px;
     display: flex;
     flex-direction: row;
@@ -104,10 +103,15 @@
     width: 30px;
     height: 30px;
 }
+.skill
+{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
 .UI 
 {
-    background-color: darkblue;
-    width: 30px;
+
     height: 30px;
     color: white;
     text-align: center;

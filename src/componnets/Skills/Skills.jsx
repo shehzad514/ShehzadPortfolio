@@ -8,9 +8,11 @@ import { FaGithub } from "react-icons/fa";
 import { DiResponsive } from "react-icons/di";
 import { GiMaterialsScience } from "react-icons/gi";
 import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
+import { FaFigma } from "react-icons/fa";
 import 'react-circular-progressbar/dist/styles.css';
 import Aos from 'aos'
 import 'aos/dist/aos.css'
+import { SiAdobexd, SiCanva  } from 'react-icons/si';
 
 function Skills() {
   useEffect(() => {
@@ -112,6 +114,29 @@ display: 'flex',
             <div className='skill skil'>
                 <p className='UI'>UI</p>
                 <p>UI Development</p>
+                <progress value={0.9}/>
+            </div>
+            <div className='skill skil'>
+                <p className='UI'>UI/UX</p>
+                <p>UI/UX Design</p>
+                <progress value={0.9}/>
+            </div>
+
+            <div className='skil'>
+                <FaFigma  className='ui'/>
+                <p>Figma</p>
+                <progress value={0.9}/>
+            </div>
+
+            <div className='skil'>
+                <SiAdobexd   className='ui'/>
+                <p>Adobe xd</p>
+                <progress value={0.9}/>
+            </div>
+
+            <div className='skil'>
+                <SiCanva   className='ui'/>
+                <p>Canva</p>
                 <progress value={0.9}/>
             </div>
                 
